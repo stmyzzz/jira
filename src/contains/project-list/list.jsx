@@ -3,7 +3,7 @@ const List = ({ list, users }) => {
   return (
     <div>
       {list.map(project => (
-        <div key={project.personId}>
+        <div key={project.id}>
           <span>{project.name}</span>
           <span>
             {users.find(user => user.id === project.personId)?.name || 'none'}
