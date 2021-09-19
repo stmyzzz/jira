@@ -22,7 +22,7 @@ const SearchPanel = ({ users, param, setParams }) => {
             })
           }
         >
-          <option value=''>init</option>
+          <option value=''>init1</option>
           {users.map(user => (
             <option key={user.id} value={user.id}>
               {user.name}
